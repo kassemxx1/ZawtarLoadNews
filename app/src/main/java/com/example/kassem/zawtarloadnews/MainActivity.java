@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
           Button  btnChoose = (Button) findViewById(R.id.btnChoose);
           Button  btnUpload = (Button) findViewById(R.id.btnUpload);
-          Button uploaddata=(Button)findViewById(R.id.uploaddata) ;
+          final Button uploaddata=(Button)findViewById(R.id.uploaddata) ;
 
 
         final EditText inputIda=(EditText)findViewById(R.id.inputId);
@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         btnChoose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 chooseImage();
             }
         });
@@ -232,6 +233,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+
     private void uploadImage() {
 
         if(filePath != null)
@@ -266,7 +269,7 @@ public class MainActivity extends AppCompatActivity {
                             ref.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                                 @Override
                                 public void onSuccess(Uri uri) {
-                                    TextView  ttt = (TextView) findViewById(R.id.textView);
+                                    final EditText  ttt = (EditText) findViewById(R.id.textView);
                                     ttt.setText(uri.toString());
                                 }
                             });
@@ -274,6 +277,5 @@ public class MainActivity extends AppCompatActivity {
                     });
         }
     }
-
 
 }
