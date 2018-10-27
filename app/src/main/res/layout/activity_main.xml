@@ -1,50 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-           <EditText
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اختر الصورة" />
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لينك الصورة" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ادخل رقم الخبر"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <EditText
             android:id="@+id/inputId"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:hint="Enter ID">
-           </EditText>
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:hint="Enter ID"></EditText>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ادخل العنوان"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Title"
             android:id="@+id/inputTitle"/>
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ادخل الشرح"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Details"
             android:id="@+id/inputDetails"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ادخل الوقت"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Time"
             android:id="@+id/inputTime"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لينك الصورة الرئيسية"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter name of Image"
-            android:id="@+id/inputImagename"/>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/inputPics"
-            android:inputType="textMultiLine"
+            android:hint="Main Pic"
+            android:id="@+id/inputImagename"
             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ادخل لينك الصور"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputPics1"
+            android:hint="Enter Pic1"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputPics2"
+            android:hint="Enter Pic2"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputPics3"
+            android:hint="Enter Pic3"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputPics4"
+            android:hint="Enter Pic4"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputPics5"
+            android:hint="Enter Pic5"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ادخل كود الفيديو"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputVideos1"
+            android:hint="Enter code Of Videos"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputVideos2"
+            android:hint="Enter code Of Videos"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اضف الخبر"
+            android:id="@+id/uploaddata"/>
 
     </LinearLayout>
 
 
-</android.support.constraint.ConstraintLayout>
+</ScrollView>

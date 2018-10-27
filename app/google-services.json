@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "193746485981",
+    "firebase_url": "https://zawtar-99262.firebaseio.com",
+    "project_id": "zawtar-99262",
+    "storage_bucket": "zawtar-99262.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193746485981:android:0eaa3ee1c8a9e71e",
+        "android_client_info": {
+          "package_name": "com.example.kassem.zawtarloadnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193746485981-sdks9912ob0sj076ourdhtu2nbkfibak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNe8MDQOochXSYPYVpzyeNEnHFI6FVDx4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193746485981:android:6aa6a61407ca6422",
+        "android_client_info": {
+          "package_name": "kassem.com.zawtar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193746485981-mu7p591j6s46po4cp1n7vr9ui7j9j1aj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kassem.com.zawtar",
+            "certificate_hash": "766f42d9b38e9ece7cce4a1998584d37dada43e8"
+          }
+        },
+        {
+          "client_id": "193746485981-sdks9912ob0sj076ourdhtu2nbkfibak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNe8MDQOochXSYPYVpzyeNEnHFI6FVDx4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193746485981-sdks9912ob0sj076ourdhtu2nbkfibak.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "193746485981-o33egaqms6dpg5r8gdorp0dt0qio6jjg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kassem-abboud.zawtar"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
